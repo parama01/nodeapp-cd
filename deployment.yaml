@@ -24,7 +24,7 @@ spec:
       terminationGracePeriodSeconds: 60
       containers:
       - name: nodeapp
-        image: paramahub/nodeapp:v4
+        image: paramahub/nodeapp:v5
         imagePullPolicy: "Always"
         lifecycle:
           preStop:
