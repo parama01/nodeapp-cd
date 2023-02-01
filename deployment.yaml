@@ -12,7 +12,7 @@ metadata:
     app: nodeapp
 
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: nodeapp
@@ -71,7 +71,7 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: nodeapp-deployment
-  minReplicas: 1
+  minReplicas: 2
   maxReplicas: 4
   metrics:
   - type: Resource
